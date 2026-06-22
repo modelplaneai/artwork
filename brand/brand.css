@@ -1,0 +1,41 @@
+/* ──────────────────────────────────────────────────────────────────────────
+   Modelplane — Brand Design Tokens
+   Source of truth: Figma "Website Style Guide" (mirrored from the marketing
+   site's src/styles/globals.css :root block).
+
+   These are the brand primitives only — colors and typography. Consume them as
+   CSS custom properties:
+
+       @import "./brand.css";
+       .button { background: var(--mp-purple); font-family: var(--mp-font-display); }
+   ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Brand colors ─────────────────────────────────────────────────────── */
+
+  /* Spruce — primary dark surfaces */
+  --mp-dark-spruce:      #001D2F;
+  --mp-spruce:           #183D54;
+  --mp-spruce-elevated:  #21465E;
+  --mp-spruce-line:      #2C5067;
+
+  /* Accent */
+  --mp-purple:           #9A5EFC;
+  --mp-purple-light:     #AD7BFC;
+  --mp-sky:              #00DCE8;
+  --mp-green:            #35D0BA;
+  --mp-coral:            #F3807B;
+  --mp-yellow:           #FFCD3C;
+
+  /* Lavender — muted text / neutrals */
+  --mp-lavender:         #B0AFCC;
+  --mp-lavender-dim:     #8B8AAE;
+
+  /* ── Typography ───────────────────────────────────────────────────────── */
+  /* Outfit (display/headings), Inter (body), DM Mono (code/labels).
+     Loaded via Google Fonts:
+     https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap */
+  --mp-font-sans:    Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  --mp-font-display: 'Outfit', var(--mp-font-sans);
+  --mp-font-mono:    'DM Mono', 'Fira Code', monospace;
+}
