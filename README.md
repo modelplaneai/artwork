@@ -40,3 +40,9 @@ Each variant is provided in:
 ## Usage
 
 Please refer to the Modelplane brand guidelines before using these assets.
+
+## Trademark
+
+Modelplane™ is a trademark. The Modelplane name and these logos are trademarks
+and are not covered by any open source license. Please refer to the Modelplane
+brand guidelines before using them.
