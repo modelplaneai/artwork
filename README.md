@@ -46,3 +46,10 @@ Please refer to the Modelplane brand guidelines before using these assets.
 Modelplane™ is a trademark. The Modelplane name and these logos are trademarks
 and are not covered by any open source license. Please refer to the Modelplane
 brand guidelines before using them.
+
+## Contributing
+
+Open every PR from a branch on your own
+[fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo),
+never a branch of the main repo. This holds for maintainers too, and for any
+agent working on your behalf: point it at your fork.
